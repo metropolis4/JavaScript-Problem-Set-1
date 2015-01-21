@@ -25,3 +25,18 @@ var wordCount = function(string) {
 	return myArray.length;
 };
 
+// Check if a number is prime
+
+var primeTime = function(x) {
+	if(x <= 2 || isNaN(x) || !isFinite(x)) {
+		return false;
+	}
+	for(i=2;i<x;i++) {
+		if(x % i === 0) {
+			return false;
+		}
+		else {
+			return true;
+		}
+	}
+};
