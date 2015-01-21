@@ -17,3 +17,11 @@ var letterCapitalize = function(string) {
 
 	return caps;
 };
+
+// Count the number of words in a string
+
+var wordCount = function(string) {
+	var myArray = string.split(' ');
+	return myArray.length;
+};
+
